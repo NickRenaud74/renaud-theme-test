@@ -7,7 +7,7 @@
     {% for member in section.blocks %}
         <div class="multicolumn-list__item grid__item">
             {% if member.settings.photo %}
-                {{ member.settings.photo | image_url: '400x' | image_tag }}
+                {{ member.settings.photo | img_url: '400x' | img_tag }}
             {% endif %}
             <h3>{{ member.settings.name }}</h3>
             <span>{{ member.settings.title }}</span>
