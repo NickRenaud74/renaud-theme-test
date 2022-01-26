@@ -1,10 +1,14 @@
 {
     "sections": {
         "main": {
-        "type": "team-members"
-        }
-    },
+            "type": "main-page"
+          },
+          "team-members": {
+            "type": "team-members"
+          }
+        },
     "order": [
-      "main"
+      "main",
+      "team-members"
     ]
 }
