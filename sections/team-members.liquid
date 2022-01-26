@@ -5,10 +5,10 @@
         </div>
     {% endif %}
     {% for member in section.blocks %}
-        <div>
-            <h3> {{ member.name }} </h3>
-            <span> {{ member.title }} </span>
-            <p>{{ member.bio }}</p>
+        <div class="section-collection-list">
+            <h3>{{ member.settings.name }}</h3>
+            <span>{{ member.settings.title }}</span>
+            <p>{{ member.settings.bio }}</p>
         </div>
     {% endfor %}
 </div>
