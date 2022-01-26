@@ -15,10 +15,37 @@
             "title": "CEO",
             "bio": "LEGEND"
           }
+        },
+        "40a55a91-1cfc-44fe-b314-0c2265cf7d6a": {
+          "type": "staff-profile",
+          "settings": {
+            "name": "LEEANN",
+            "title": "BOSS LADY",
+            "bio": "BOSS"
+          }
+        },
+        "58d993c1-856c-4b15-b32a-ed1e9fd7b08c": {
+          "type": "staff-profile",
+          "settings": {
+            "name": "",
+            "title": "",
+            "bio": ""
+          }
+        },
+        "d0424f68-9756-4769-8503-0c9ded8df7c4": {
+          "type": "staff-profile",
+          "settings": {
+            "name": "",
+            "title": "",
+            "bio": ""
+          }
         }
       },
       "block_order": [
-        "47254f2f-a1f1-4b52-81f6-68fd44ddee90"
+        "47254f2f-a1f1-4b52-81f6-68fd44ddee90",
+        "40a55a91-1cfc-44fe-b314-0c2265cf7d6a",
+        "58d993c1-856c-4b15-b32a-ed1e9fd7b08c",
+        "d0424f68-9756-4769-8503-0c9ded8df7c4"
       ],
       "settings": {
         "title": "Meet Our Team"
