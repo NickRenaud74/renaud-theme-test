@@ -1,14 +1,32 @@
 {
-    "sections": {
-        "main": {
-            "type": "main-page"
-          },
-          "team-members": {
-            "type": "team-members"
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "team-members": {
+      "type": "team-members",
+      "blocks": {
+        "47254f2f-a1f1-4b52-81f6-68fd44ddee90": {
+          "type": "staff-profile",
+          "settings": {
+            "name": "Nick Renaud",
+            "title": "CEO",
+            "bio": "LEGEND"
           }
-        },
-    "order": [
-      "main",
-      "team-members"
-    ]
+        }
+      },
+      "block_order": [
+        "47254f2f-a1f1-4b52-81f6-68fd44ddee90"
+      ],
+      "settings": {
+        "title": "Meet Our Team"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "team-members"
+  ]
 }
