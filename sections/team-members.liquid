@@ -5,9 +5,9 @@
         </div>
     {% endif %}
     {% for member in section.blocks %}
-        <div class="multicolumn-list__item grid__item">
+        <div class="grid__item medium-up--one-half" style="margin-top: 30px;">
             {% if member.settings.photo %}
-                {{ member.settings.photo | img_url: '400x' | img_tag }}
+                {{ member.settings.photo | img_url: '300x' | img_tag }}
             {% endif %}
             <h3>{{ member.settings.name }}</h3>
             <span>{{ member.settings.title }}</span>
